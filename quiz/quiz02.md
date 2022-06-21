@@ -1,8 +1,7 @@
 
-```{admonition} Question
 What is the work of this code?
 `adult_census = pd.read_csv("../datasets/adult-census.csv")`:
-
+```
 - a) load a comma-separated values file
 - b) load a dataset already included in the pandas package
 - c) load a file only containing the survey features

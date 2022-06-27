@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Price Predictor</title>
+</head>
+
+<body>
+
+    <div>
+        <form method="post">
+            {% if errors %}
+            <p>{{errors}}</p>
+            {% endif %}
+
+            <div>
+                <label for="beds">No. of Bedrooms</label>
+                <input type="number" name="beds" id="beds" min="1" max="15">
+            </div>
+            <div>
+                <label for="baths">No. of Bathrooms</label>
+                <input type="number" name="baths" id="baths" min="1" max="10">
+            </div>
+            <div>
+                <label for="sqft">Size ( in Square Feet )</label>
+                <input type="number" name="sqft" id="sqft" min="100" max="10000">
+            </div>
+            <div>
+                <select name="city" id="city">
+                    <option selected disabled>Select City</option>
+                    {% for city in cities %}
+                    <option>{{city}}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div>
+                <select name="rt" id="rt">
+                    <option selected disabled>Select Resident Type</option>
+                    {% for rt in res_types %}
+                    <option>{{rt}}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div>
+                <button type="submit">Predict House Price</button>
+            </div>
+        </form>
+    </div>
+    <div>
+        {% if price %}
+        <p>{{price}}</p>
+        {% endif %}
+    </div>
+</body>
+
+</html>

@@ -39,7 +39,6 @@ def index():
             price = int(price[0])
         else:
             errors = 'Please enter valid numbers for beds, baths, and size' 
-
     return render_template('index.html',cities = cities,res_types = restype, errors = errors, price=price)
 
 if __name__ == '__main__':

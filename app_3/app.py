@@ -11,7 +11,6 @@ def load_model():
 @app.route('/',methods=['GET','POST'])
 def index():
     md = load_model()
-
     cities = md['cities']
     restype = md['resident_types']
     scaler = md['scaler']

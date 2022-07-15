@@ -15,9 +15,9 @@ _Select all answers that apply_
 
 ---
 
-```{admonition} Question
+Question
 How is a tabular dataset organized?
-
+```
 - a) a column represents a sample and a row represents a feature
 - b) a column represents a feature and a row represents a sample
 - c) the target variable is represented by a row
@@ -28,9 +28,9 @@ _Select all answers that apply_
 
 ---
 
-```{admonition} Question
+Question
 A categorical variable is:
-
+```
 - a) a variable with **only two** different possible values
 - b) a variable with continuous numerical values
 - c) a variable with a finite set of possible values
@@ -39,9 +39,9 @@ A categorical variable is:
 ---
 _Select a single answer_
 
-```{admonition} Question
+Question
 A model that is underfitting:
-
+```
 - a) is too complex and thus highly flexible
 - b) is too constrained and thus limited by its expressivity
 - c) often makes prediction errors, even on training samples
@@ -52,9 +52,9 @@ _Select all answers that apply_
 
 ---
 
-```{admonition} Question
+Question
 A model that is overfitting:
-
+```
 - a) is too complex and thus highly flexible
 - b) is too constrained and thus limited by its expressivity
 - c) often makes prediction errors, even on training samples

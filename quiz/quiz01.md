@@ -55,3 +55,17 @@ What is a record (a sample)?
 - c) each kind of description (as the house size) is a record
 ```
 _Select a single answer_
+
+---
+Question
+What is a linear regression?
+```
+- a) a model that outputs a continuous prediction as the sum of the values of a
+  **limited** subset of the input features
+- b) a model that outputs a binary prediction based on a linear combination
+  of the values of the input features
+- c) a model that outputs a continuous prediction as a weighted sum of the input
+  features
+
+```
+_Select a single answer_
